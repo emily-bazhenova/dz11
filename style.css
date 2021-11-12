@@ -88,6 +88,11 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto 20px;
+  transition: scale, 250ms;
+  transition: rotate, 500ms;
+}
+.icon:hover {
+  transform: scale(1.2) rotate(360deg);
 }
 
 .icon-1 {
